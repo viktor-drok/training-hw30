@@ -1,5 +1,3 @@
-// import polindrom from 'js/polindrom'
-
 const symbols = ')!@#$%^&*('
 console.log(symbols)
 
