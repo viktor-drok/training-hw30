@@ -5,11 +5,11 @@ input2.oninput = reversText
 function reversText() {
     let inputText = input2.value.split('').reverse('').join('')
     output2.innerText = inputText
-    let ifPolindrom = document.querySelector('.ifPolindrom')
+    let ifPalindrom = document.querySelector('.ifPalindrom')
 
     if (output2.innerText === input2.value) {
-        ifPolindrom.innerText = 'polindrom'
+        ifPalindrom.innerText = 'palindrom'
     }
     else
-        ifPolindrom.innerText = 'NOT polindrom'
+        ifPalindrom.innerText = 'NOT palindrom'
 }
